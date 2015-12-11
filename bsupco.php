@@ -1,3 +1,4 @@
+		<DOCTYPE!>
 		<header>
 			<a href="accueil.php"><img src="Images/final2.png" title="In'N'Out" alt="IN'N'Out"/></a>
 			
