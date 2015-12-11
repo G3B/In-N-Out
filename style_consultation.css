@@ -1,0 +1,109 @@
+#container{
+	text-align: center;
+}
+
+.block_lateraux_gauche{
+	left: 10px;
+	position: fixed;
+}
+
+.block_lateraux_droite{
+	right: 10px;
+	position: fixed;
+}
+
+.blocks, .blocks_photos{
+	border-radius: 5px;
+	width: 300px;
+	height: 300px;
+	border: 1px solid;
+	text-align: left;
+	padding: 10px;
+	background-color: #FAEBD7;
+}
+
+.blocks_photos{
+	text-align: center;
+}
+
+.image_block_lateral{
+	width: 45%;
+	height: 45%;
+	display: inline-block;
+	border-radius: 5px;
+	margin: 6.5px;
+}
+
+#block_centrale{
+	text-align: left;
+	margin-left: 340px;
+	margin-right: 340px;
+	height: auto;
+	min-width: 400px;
+	border-radius: 5px;
+	border: 1px solid;
+	padding: 10px;
+	background-color: #FFDEAD;
+}
+
+.titre_block{
+	font-size: 30px;
+}
+
+.big_titre{
+	font-size: 40px;
+}
+
+#illustration_center{
+	width: 100%;
+	height: auto;
+	border-radius: 5px;
+}
+
+#position_bouton_participer{
+	display: inline-block;
+}
+
+#bouton_participer, #bouton_se_desinscrir{
+	border-radius: 15px;
+	border: 0px;
+	color: white;
+	height: 50px;
+	width: 250px;
+	position: relative;
+	top: -10px;
+	margin-left: 50px;
+}
+
+#bouton_se_desinscrir{
+	background-color: red;
+}
+
+#bouton_participer{
+	background-color: blue;
+}
+
+.rating {
+   direction: rtl;
+   display: inline-block;
+}
+
+.rating a {
+   color: #aaa;
+   text-decoration: none;
+   font-size: 3em;
+}
+
+.rating a:hover, .rating a:focus, .rating a:hover ~ a, .rating a:focus ~ a {
+   color: orange;
+   cursor: pointer;
+}
+
+#bouton_rating{
+	text-align: center;
+}
+
+.couleur_info{
+	color: red;
+	display: inline-block;
+}
